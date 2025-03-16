@@ -10,19 +10,40 @@
   height: 100vh;
   padding: 20px;
   border: 5px solid black;
+}
+
+.section-principal > :nth-child(1){
   display: flex;
+}
+
+.section-principal > :nth-child(2){
+  display: flex;
+  gap: 7px;
 }
 
 .section-naranja {
   background-color: #ffa931;
   width: 55%;
-  height: 55vh;
+  height: 50vh;
   border: 5px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .section-verde {
   background-color: #80c783;
   width: 45%;
-  height: 55vh;
+  height: 50vh;
   border: 5px solid black;
 }
+
+.section-rojo {
+  background-color: #ff4945;
+  width: 33%;
+  height: 40vh;
+  border: 5px solid black;
+}
+
+
+
